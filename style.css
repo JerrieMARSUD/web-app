@@ -1,0 +1,188 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: lavender;
+	scroll-behavior: smooth;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: blueviolet;
+	color: #C499F3;
+}
+
+.logo {
+	padding-left: 30px;
+}
+
+.logo:hover{
+	transform: scale(1.2);
+	transition: all ease .3s;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-right: 10px
+
+}
+
+nav li a {
+	color: ghostwhite;
+	padding: 6px 10px;
+	background-color: skyblue;
+	color: purple;
+	border-radius: 12px;
+	box-shadow: 1px 2px 3px #525CEB;
+}
+
+.call{
+	padding-right: 30px;
+
+}
+
+.call a{
+	text-decoration: none;
+	color: whitesmoke;
+	padding: 8px 15px;
+	background-color: skyblue;
+	color: purple
+	border-radius: 12px;
+	box-shadow: 1px 2px 3px #525CEB;
+	
+}
+
+.image-hero img{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 2px 4px 10px purple;
+}
+
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 2s;
+}
+
+.title-hero {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.title-hero h1 {
+	color: blue;
+}
+
+#About {
+	width: 90%
+	margin: 0 auto;
+}
+
+#About h2 {
+	padding-top: 40px;
+	color: #525CEB;
+}
+
+hr{
+	width: 30%
+
+}
+
+#about{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#menu h2 {
+	padding-top: 40px;
+	color: #525CEB;
+}
+
+.cards {
+	display: flex;
+	background-color: blueviolet;
+	align-items: center;
+	color: white;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 250px;
+	border: 1px solid black;
+	padding: 10px;
+	border-radius: 15px;
+	background-color: black;
+}
+
+
+.card img {
+
+	width: 100%;
+	border-radius: 15px;
+}
+
+.card img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+.container{
+	text-align: left;
+}
+
+
+.card a {
+	text-decoration: none;
+	color: #525CEB;
+	margin-left: 30px;
+	border: 1px #black;
+	padding: 10px 40px;
+	border-radius: 12px;
+	box-shadow: 1px 2px 4px;
+}
+
+.card a:hover {
+	background-color: skyblue;
+	color: #525CEB;
+}
+
+#contact {
+	width: 95%;
+	margin: 40px auto;
+}
+
+#contact {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.image-contact {
+    width: 50%;
+}
+
+.image-contact img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer{
+	width: 95%;
+	margin: 60px auto;
+
+}
